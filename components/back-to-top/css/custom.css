@@ -1,0 +1,29 @@
+#gotoTop{
+        display:none;
+        position:fixed;
+
+        bottom:30px;
+        right:20px;
+        
+        padding:5px;        
+        width:36px;
+        height: 36px;
+        border-radius: 4px;
+
+        cursor:pointer;
+        text-align:center;       
+        color: white;
+        background: rgba(0,0,0,0.5);
+    }
+
+    #gotoTop.hover{
+        text-decoration: none;
+    }
+
+    .noHover{
+        display: block;
+    }
+
+    .withHover{
+        display: none;
+    }
