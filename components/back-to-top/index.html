@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>back to top</title>
+		
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+		<script src="jquery-3.0.0.min.js"></script>
+		
+		<script type="text/javascript">
+       		$(document).ready(function(){
+                var min_height = 0;
+
+           		$(window).scroll(function(){
+                	var scrollTop = $(window).scrollTop();
+                	console.log('scrollTop is ' + scrollTop)
+                	if( scrollTop > min_height){
+                       $("#gotoTop").fadeIn(100);
+                	}else{
+                       $("#gotoTop").fadeOut(200);
+                	};
+           		});
+
+
+                $('#gotoTop').click(function(){
+                	$('html,body').animate({scrollTop: 0}, 700);
+                });
+                
+
+           		$('#gotoTop').hover(
+                    function(){$(this).addClass("hover");
+                    	$(".noHover").css("display","none");
+                    	$(".withHover").css("display","block");
+                    },
+                    function(){$(this).removeClass("hover");
+                        $(".noHover").css("display","block");
+                        $(".withHover").css("display","none");
+                    }
+                );
+       		});
+
+		</script>
+		
+	</head>
+	
+	<body>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div>hello beauty</div>
+		<div id="gotoTop">
+			<div class="noHover"><i class=" fa fa-angle-up fa-2x"></i></div>
+			<div class="withHover"><span>返回顶部</span></div>
+		</div>
+	</body>
+</html>
